@@ -43,7 +43,7 @@ public class Main {
         }
         System.out.print("Choose a reader by entering a number: ");
         int return_readerIndex = sc.nextInt() - 1;
-        readers[return_readerIndex].takeBook(return_books);
+        readers[return_readerIndex].returnBook(return_books);
     }
 }
 
